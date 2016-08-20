@@ -13,6 +13,10 @@ Please open [pull-requests](https://github.com/bencevans/node-sonos) and ask que
 For detailed info read the [/API.md](https://github.com/bencevans/node-sonos/blob/master/API.md) file, else…
 
 * search([options], [deviceAvailableListener])
+* Class: Listener(device, [options])
+  * addService(serviceEndpoint, callback, [device])
+  * listen(callback)
+  * removeService(sid, callback, [device])
 * Class: Search([options])
   * Event: 'DeviceAvailable'
   * destroy()
